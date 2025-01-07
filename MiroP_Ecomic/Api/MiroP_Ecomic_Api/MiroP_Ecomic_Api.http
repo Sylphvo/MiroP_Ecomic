@@ -1,0 +1,6 @@
+@MiroP_Ecomic_Api_HostAddress = http://localhost:5192
+
+GET {{MiroP_Ecomic_Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
