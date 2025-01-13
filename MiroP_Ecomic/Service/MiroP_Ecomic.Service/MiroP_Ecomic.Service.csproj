@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.FluentBuilder" Version="2.0.1" />
+    <PackageReference Include="Invedia.DI" Version="2021.7.22.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MiroP_Ecomic.Contract.Service\MiroP_Ecomic.Contract.Service.csproj" />
+  </ItemGroup>
+
 </Project>
