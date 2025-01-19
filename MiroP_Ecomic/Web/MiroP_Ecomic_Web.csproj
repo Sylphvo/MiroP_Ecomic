@@ -1036,4 +1036,11 @@
     <ProjectReference Include="..\Cross\MiroP_Ecomic.Core\MiroP_Ecomic.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Views\Shared\_ScriptFooter.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
